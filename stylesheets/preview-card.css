@@ -24,9 +24,9 @@
   color: var(--dark-gray);
   position: relative;
   background-color: white;
-  width: clamp(300px, 90%, 350px);
-  height: 375px;
-  border-radius: 16px;
+  width: clamp(18.75rem, 90%, 21.875rem);
+  height: 23.4375rem;
+  border-radius: 1rem;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -39,11 +39,11 @@
 .profile-card-content {
   position: relative;
   text-align: center;
-  padding-top: 72px;
+  padding-top: 4.5rem;
 }
 
 .profile-card-content h1 {
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
 }
 
 .profile-card-content > h1,
@@ -61,24 +61,24 @@
 }
 
 .user-location {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .profile-card-content hr {
   background-color: var(--dark-gray);
-  height: 1px;
+  height: 0.0625rem;
   width: 100%;
   border: none;
-  margin: 24px 0;
+  margin: 1.5rem 0;
 }
 
 .profile-card-content > img {
   position: absolute;
-  top: -53px;
+  top: -3.3125rem;
   left: 50%;
   transform: translateX(-50%);
   border-radius: 50%;
-  border: 5px solid white;
+  border: 0.3125rem solid white;
 }
 
 .user-stats-list {
@@ -88,12 +88,12 @@
 }
 
 .user-stats {
-  font-size: 12px;
-  letter-spacing: 0.5px;
+  font-size: 0.75rem;
+  letter-spacing: 0.03125rem;
   display: flex;
   flex-direction: column;
 }
 
 .user-stats span {
-  margin-bottom: 4px;
+  margin-bottom: 0.25rem;
 }
