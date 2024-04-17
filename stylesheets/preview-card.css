@@ -10,14 +10,14 @@
 
 .bg-img img:first-of-type {
   position: absolute;
-  top: -50%;
-  left: -25%;
+  top: -70%;
+  left: -20%;
 }
 
 .bg-img img:last-of-type {
   position: absolute;
-  bottom: -50%;
-  right: -50%;
+  bottom: -88%;
+  right: -16%;
 }
 
 .profile-card {
