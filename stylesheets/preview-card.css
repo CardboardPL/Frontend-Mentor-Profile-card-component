@@ -8,14 +8,16 @@
   overflow: hidden;
 }
 
+.bg-img img {
+  position: fixed;
+}
+
 .bg-img img:first-of-type {
-  position: absolute;
   top: -70%;
   left: -20%;
 }
 
 .bg-img img:last-of-type {
-  position: absolute;
   bottom: -88%;
   right: -16%;
 }
@@ -96,4 +98,58 @@
 
 .user-stats span {
   margin-bottom: 0.25rem;
+}
+
+@media (max-width: 1300px) {
+  .bg-img img:first-of-type {
+    top: -80%;
+    left: -30%;
+  }
+  
+  .bg-img img:last-of-type {
+    bottom: -98%;
+    right: -26%;
+  }  
+}
+
+@media (max-width: 900px) {
+  .bg-img img:first-of-type {
+    top: -90%;
+    left: -40%;
+  }
+  
+  .bg-img img:last-of-type {
+    bottom: -108%;
+    right: -36%;
+  }  
+}
+
+@media (max-width: 750px) {
+  .bg-img img:first-of-type {
+    left: -50%;
+  }
+  
+  .bg-img img:last-of-type {
+    right: -56%;
+  }  
+}
+
+@media (max-width: 650px) {
+  .bg-img img:first-of-type {
+    left: -100%;
+  }
+  
+  .bg-img img:last-of-type {
+    right: -100%;
+  }  
+}
+
+@media (max-width: 500px) {
+  .bg-img img:first-of-type {
+    left: -190%;
+  }
+  
+  .bg-img img:last-of-type {
+    right: -196%;
+  }  
 }
