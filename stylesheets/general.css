@@ -33,6 +33,7 @@ body {
 
   background-color: var(--dark-cyan);
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 main {
