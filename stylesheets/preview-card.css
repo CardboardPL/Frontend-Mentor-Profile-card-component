@@ -122,3 +122,13 @@
     right: -21%;
   }
 }
+
+@media (max-width: 500px) {
+  .bg-img img:first-of-type {
+    left: -18%;
+  }
+  
+  .bg-img img:last-of-type {
+    right: -14%;
+  }
+}
