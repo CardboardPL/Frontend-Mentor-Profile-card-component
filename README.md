@@ -23,7 +23,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshots/mobile-design.png)
+![](./screenshots/desktop-design.png)
 
 ### Links
 
@@ -49,7 +50,7 @@ I plan to make this as an inspiration for future projects.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [CSS Tricks article about fixing unintended body overflow](https://css-tricks.com/findingfixing-unintended-body-overflow/?fbclid=IwZXh0bgNhZW0CMTAAAR3ZkvCDS2Y7i4blIKS5cbjibCh0bVBS3DddbgvP-cp7D3XqLresy4FxTaY_aem_ATZmrHc0lMx_ffHDX9AGzOkjl3NueVqibzST1GNfM2bM5yaRbg53wpVCca9D3iIeRs7QEetYV6d_CIQnTCSeGGOe) - This helped me solve the positioning of the decorative images.
 
 ## Author
 
