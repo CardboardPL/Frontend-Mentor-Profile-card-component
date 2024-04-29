@@ -18,14 +18,14 @@
   min-width: 1440px;
 }
 
-.bg-img img {
+.bg-img > img {
   position: fixed;
   transition: all 0.5s ease-in-out;
 }
 
 .bg-img img:first-of-type {
   top: -70%;
-  left: -20%;
+  left: -19.8%;
 }
 
 .bg-img img:last-of-type {
@@ -124,11 +124,17 @@
 }
 
 @media (max-width: 500px) {
+  .bg-img > img {
+    opacity: 0.4;
+  }
+
   .bg-img img:first-of-type {
-    left: -18%;
+    left: -15.5%;
+    top: -95%;
   }
   
   .bg-img img:last-of-type {
-    right: -14%;
+    right: -15.5%;
+    bottom: -90.5%;
   }
 }
